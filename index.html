@@ -1,0 +1,60 @@
+<!--Standaard HTML body-->
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <!--Head onderdeel van de app-->
+
+  <head>
+    <meta charset="utf-8" />
+    <title>Start je dag goed</title>
+    <script defer src="file://fspaka02/userdata7c$/al15266/Documents/VueJS/oefenapp/index.js" charset="utf-8"></script>
+    <style> 
+        body {
+          background-image: url("file://fspaka02/userdata7c$/al15266/Documents/VueJS/oefenapp/resources/cool-background.png");
+          background-repeat: no-repeat;
+          background-size: cover;
+        }
+        </style>
+  </head>
+  <!--Body onderdeel van de app-->
+
+  <body>
+
+    <div id="timetext"; style="font-size: 20px; position: absolute; right: 10px;">
+        <!--time placeholder-->
+    </div>
+
+    <div style="text-align:center; font-family:verdana;" id="tijd_van_de_dag">
+        <!--Voeg hier begroeting toe op basis van tijdstip op de dag-->
+    </div>
+
+    <div style="text-align:center; font-family:verdana;" id="bericht">
+        <h2>Wordt het morgen lekker weer?</h2>
+    </div>
+    
+    <br>
+    <br>
+    
+    <div id="het_weer_reactie" style="text-align: center; font-size:30px">
+        <!--text hier-->
+        </div>
+
+    <div id="reactie" style="position:absolute; left:480px; top: 250px;">
+        <!--plaatje hier-->
+    </div>
+    
+    <img id="het_weer" src='#' style="position:absolute; left:900px; top: 330px; size: 1000px;">
+
+
+    <div id="quote" style="text-align: center; font-size: 35px; font-style: oblique; position:absolute; bottom: 20px;">
+        <!--quote hier-->
+    </div>
+      
+    <script src="file://fspaka02/userdata7c$/al15266/Documents/VueJS/oefenapp/weerGif.js"></script>
+    <script src="file://fspaka02/userdata7c$/al15266/Documents/VueJS/oefenapp/reactieGif.js"></script>
+    <script src="file://fspaka02/userdata7c$/al15266/Documents/VueJS/oefenapp/updateTime.js"></script>
+    <script src="file://fspaka02/userdata7c$/al15266/Documents/VueJS/oefenapp/getQuoteOfTheDay.js"></script>
+    <script src="file://fspaka02/userdata7c$/al15266/Documents/VueJS/oefenapp/findDeviceLocation.js"></script>
+    <script src="file://fspaka02/userdata7c$/al15266/Documents/VueJS/oefenapp/getWeersverwachting.js"></script>
+
+  </body>
+</html>
